@@ -1,0 +1,13 @@
+.advantage {
+  text-align: center;
+}
+
+.advantage__image-wrapper {
+  display: inline-block;
+  width: 126px;
+  height: 126px;
+  position: relative;
+  background: #F2F5F4;
+  border-radius: 50%;
+}
+

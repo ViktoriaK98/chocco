@@ -1,0 +1,24 @@
+.adv {
+  display: flex;
+}
+
+.adv__items {
+  flex: 1;
+  position: relative;
+}
+.adv__items:before {
+  content: url("../../img/adv/shape.png");
+  position: absolute;
+  top: 30px;
+  right: 0;
+  transform: translateX(81%);
+}
+.adv__items:first-child {
+  padding-left: 0;
+}
+.adv__items:last-child {
+  padding-right: 0;
+}
+.adv__items:last-child:before {
+  display: none;
+}

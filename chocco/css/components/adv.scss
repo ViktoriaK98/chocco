@@ -1,0 +1,38 @@
+.adv{
+display: flex;
+}
+.adv__items{
+    flex:1;
+    position: relative;
+    &:before{
+        content:url("../../img/adv/shape.png");
+        position: absolute;
+        top: 52px;
+        right: 0;
+        transform: translateX(81%);
+    }
+
+    &:first-child{
+padding-left: 0;
+    }
+
+    &:last-child{
+padding-right: 0;
+
+       &:before{
+        display: none;
+       } 
+    }
+}
+
+.adv_orn{
+    background: url(../../img/adv/orn.png) no-repeat bottom left;
+    position: relative;
+
+    &:after{
+        content: url(../../img/adv/berry.png);
+        position: absolute;
+        bottom: -258px;
+    }
+   
+}
